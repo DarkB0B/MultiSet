@@ -49,7 +49,6 @@ namespace TestProject1
             Assert.AreEqual(8, multiset.Count);
         }
 
-        //create tests for MultiSet
         [TestMethod]
 
         public void ContainsTest()
@@ -67,7 +66,6 @@ namespace TestProject1
             Assert.AreEqual(true, multiset.Contains('a'));
         }
 
-        //create tests for MultiSet
         [TestMethod]
         public void ClearTest()
         {
@@ -85,7 +83,6 @@ namespace TestProject1
             Assert.AreEqual(0, multiset.Count);
         }
 
-        //create tests for MultiSet
         [TestMethod]
 
         public void CountTest()
@@ -103,7 +100,6 @@ namespace TestProject1
             Assert.AreEqual(9, multiset.Count);
         }
 
-        //create tests for MultiSet
         [TestMethod]
         public void IsReadOnlyTest()
         {
@@ -111,7 +107,6 @@ namespace TestProject1
             Assert.AreEqual(false, multiset.IsReadOnly);
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void CopyToTest()
@@ -131,7 +126,6 @@ namespace TestProject1
             Assert.AreEqual('a', array[0]);
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void GetEnumeratorTest()
@@ -203,7 +197,6 @@ namespace TestProject1
             Assert.AreEqual(true, multiset1.IsSupersetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void IsProperSubsetTest()
@@ -231,7 +224,6 @@ namespace TestProject1
             Assert.AreEqual(false, multiset1.IsProperSubsetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void IsProperSupersetTest()
@@ -259,7 +251,6 @@ namespace TestProject1
             Assert.AreEqual(false, multiset1.IsProperSupersetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void OverlapsTest()
@@ -287,7 +278,6 @@ namespace TestProject1
             Assert.AreEqual(true, multiset1.Overlaps(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
         public void SetEqualsTest()
@@ -399,7 +389,6 @@ namespace TestProject1
             Assert.AreEqual(false, multiset1.IsProperSubsetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
 
@@ -428,7 +417,6 @@ namespace TestProject1
             Assert.AreEqual(false, multiset1.IsProperSupersetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
 
@@ -457,7 +445,6 @@ namespace TestProject1
             Assert.AreEqual(true, multiset1.IsSubsetOf(multiset2));
         }
 
-        //create tests for MultiSet
 
         [TestMethod]
 
